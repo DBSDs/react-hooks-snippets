@@ -1,0 +1,45 @@
+{
+  "name": "react-hooks-snippest",
+  "displayName": "react-hooks-snippest/typescript",
+	"description": "Code snippets for React-hooks in typescript",
+	"version": "1.0.0",
+  "galleryBanner": {
+    "theme": "light",
+    "color": "#FFFFFF"
+  },
+	"engines": {
+		"vscode": "^1.66.0"
+	},
+  "icon": "images/react_ts.png",
+	"publisher": "DBSDs",
+	 "keywords": [
+    "react",
+    "snippets",
+    "react-native",
+    "hooks",
+    "useStatus",
+    "useEffect"
+  ],
+	"categories": [
+		"Snippets"
+	],
+	"activationEvents": [
+		"onCommand:snippest-sample.helloWorld"
+	],
+	"contributes": {
+		"snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "tsx",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+	}
+}

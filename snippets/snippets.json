@@ -1,0 +1,40 @@
+{
+  "Import react as object": {
+    "prefix": "iprt",
+    "body": ["import * as React from 'react';"],
+    "description": "Import react as object"
+  },
+  "Generate react function template": {
+    "prefix": "t!!",
+    "body": [
+      "import * as React from 'react';",
+      "$2",
+      "const defaultComponent = (props) => {",
+      "",
+        "\treturn <React.Fragment>$1</React.Fragment>",
+      "}",
+      "",
+      "export default defaultComponent"
+    ],
+    "description": "Import react as object"
+  },
+  "use state hook quickly": {
+    "prefix": "use",
+    "body": [
+      "const [first, setfirst] = React.useState(null)"
+    ],
+    "description": "Import react as object" 
+  },
+  "use effect hook quickly": {
+    "prefix": "eff",
+    "body": [
+      "React.useEffect(() => {",
+        "\t$1",
+        "\t return () => {",
+        "\t",
+        "\t}",
+      "},[])"
+    ],
+    "description": "Import react as object" 
+  }
+}
