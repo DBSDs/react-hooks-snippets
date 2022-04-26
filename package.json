@@ -10,8 +10,13 @@
 	"engines": {
 		"vscode": "^1.66.0"
 	},
+  "main": "extension.js",
   "icon": "images/react_ts.png",
-	"publisher": "DBSDs",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/DBSDs/react-hooks-snippest.git"
+  },
+	"publisher": "op-chen",
 	 "keywords": [
     "react",
     "snippets",
@@ -34,10 +39,6 @@
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "tsx",
         "path": "./snippets/snippets.json"
       }
     ]
