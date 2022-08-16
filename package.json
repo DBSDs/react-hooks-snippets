@@ -1,8 +1,8 @@
 {
-  "name": "react-hooks-snippest",
-  "displayName": "react-hooks-snippest/typescript",
+  "name": "react-hooks-snippet",
+  "displayName": "react-hooks-snippet/typescript",
 	"description": "Code snippets for React-hooks in typescript",
-	"version": "1.0.0",
+	"version": "1.0.1",
   "galleryBanner": {
     "theme": "light",
     "color": "#FFFFFF"
@@ -14,7 +14,7 @@
   "icon": "images/react_ts.png",
    "repository": {
     "type": "git",
-    "url": "https://github.com/DBSDs/react-hooks-snippest.git"
+    "url": "https://github.com/DBSDs/react-hooks-snippet.git"
   },
 	"publisher": "op-chen",
 	 "keywords": [
@@ -29,7 +29,7 @@
 		"Snippets"
 	],
 	"activationEvents": [
-		"onCommand:snippest-sample.helloWorld"
+		"onCommand:snippet-sample.helloWorld"
 	],
 	"contributes": {
 		"snippets": [

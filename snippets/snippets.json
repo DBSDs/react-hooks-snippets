@@ -5,28 +5,46 @@
     "description": "Import react as object"
   },
   "Generate react function template": {
-    "prefix": "t!!",
+    "prefix": "ftmp",
     "body": [
-      "import * as React from 'react';",
-      "$2",
-      "const defaultComponent = (props) => {",
+      "type T${TM_FILENAME_BASE} = {",
+      "$3",
+      "}", 
       "",
-        "\treturn <React.Fragment>$1</React.Fragment>",
+      "const ${1:${TM_FILENAME_BASE}}: React.FC<T${TM_FILENAME_BASE}> = (props) => {",
+        "\treturn <React.Fragment>$2</React.Fragment>",
       "}",
       "",
-      "export default defaultComponent"
+      "export default ${1:${TM_FILENAME_BASE}}"
+    ],
+    "description": "Import react as object"
+  },
+  "Generate react function template with basic import": {
+    "prefix": "tmp",
+    "body": [
+      "import React from 'react';",
+      "",
+      "type T${TM_FILENAME_BASE} = {",
+      "$3",
+      "}", 
+      "",
+      "const ${1:${TM_FILENAME_BASE}}: React.FC<T${TM_FILENAME_BASE}> = (props) => {",
+        "\treturn <React.Fragment>$2</React.Fragment>",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}}"
     ],
     "description": "Import react as object"
   },
   "use state hook quickly": {
-    "prefix": "use",
+    "prefix": "uss",
     "body": [
-      "const [first, setfirst] = React.useState(null)"
+      "const [${1:first}, set${1:first}] = React.useState<${2|string,number,boolean,any[],any,{}|}>(null)"
     ],
     "description": "Import react as object" 
   },
   "use effect hook quickly": {
-    "prefix": "eff",
+    "prefix": "usf",
     "body": [
       "React.useEffect(() => {",
         "\t$1",

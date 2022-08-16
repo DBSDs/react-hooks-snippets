@@ -1,12 +1,13 @@
 
 ## Snippets List
 
-| Snippets | Content                              |
-|---------:|--------------------------------------|
-|     iprt | Import react as object               |
-|      t!! | Generate react function template     |
-|     use  | use state hook quickly               |
-|     eff  | use effect hook quickly              |
+a snippets for develop function compoent quickly
 
-
+| Snippets | Content                                            |
+| -------: | -------------------------------------------------- |
+|      iprt| Import react as object                             |
+|      ftmp| Generate basic react function template             |
+|      imp | Generate react function template with basic import |
+|      uss | use state hook quickly                             |
+|      usf | use effect hook quickly                            |
 ---
