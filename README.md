@@ -7,7 +7,7 @@ a snippets for develop function compoent quickly
 | -------: | -------------------------------------------------- |
 |      iprt| Import react as object                             |
 |      ftmp| Generate basic react function template             |
-|      imp | Generate react function template with basic import |
+|      tmp | Generate react function template with basic import |
 |      uss | use state hook quickly                             |
 |      usf | use effect hook quickly                            |
 ---
