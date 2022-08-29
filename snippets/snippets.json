@@ -17,7 +17,7 @@
       "",
       "export default ${1:${TM_FILENAME_BASE}}"
     ],
-    "description": "Import react as object"
+    "description": "Generate react function template"
   },
   "Generate react function template with basic import": {
     "prefix": "tmp",
@@ -34,14 +34,14 @@
       "",
       "export default ${1:${TM_FILENAME_BASE}}"
     ],
-    "description": "Import react as object"
+    "description": "Generate react function template with basic import"
   },
   "use state hook quickly": {
     "prefix": "uss",
     "body": [
-      "const [${1:first}, set${1:first}] = React.useState<${2|string,number,boolean,any[],any,{}|}>(null)"
+      "const [${1:first}, set${2:${1/^(.*)/${1:/capitalize}/}}] = React.useState<${3|string,number,boolean,any[],any,{}|}>($4)"
     ],
-    "description": "Import react as object" 
+    "description": "use state hook quickly" 
   },
   "use effect hook quickly": {
     "prefix": "usf",
@@ -53,6 +53,6 @@
         "\t}",
       "},[])"
     ],
-    "description": "Import react as object" 
+    "description": "use effect hook quickly" 
   }
 }
