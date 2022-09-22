@@ -11,3 +11,9 @@ a snippets for develop function compoent quickly
 |      uss | use state hook quickly                             |
 |      usf | use effect hook quickly                            |
 ---
+
+## link extension
+
+[auto-comment](https://marketplace.visualstudio.com/items?itemName=op-chen.auto-comment) 
+
+
