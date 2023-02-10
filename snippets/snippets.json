@@ -41,18 +41,58 @@
     "body": [
       "const [${1:first}, set${2:${1/^(.*)/${1:/capitalize}/}}] = React.useState<${3|string,number,boolean,any[],any,{}|}>($4)"
     ],
-    "description": "use state hook quickly" 
+    "description": "use React.useState hook quickly" 
   },
   "use effect hook quickly": {
     "prefix": "usf",
     "body": [
       "React.useEffect(() => {",
         "\t$1",
-        "\t return () => {",
-        "\t",
+        "\treturn () => {",
+        "\t\t$3",
         "\t}",
-      "},[])"
+      "},[$2])"
     ],
-    "description": "use effect hook quickly" 
+    "description": "use React.useEffect hook quickly" 
+  },
+  "use reducer hook quickly": {
+    "prefix": "usre",
+    "body": [
+      "const [${1:first}, set${2:${1/^(.*)/${1:/capitalize}/}}] = React.useReducer<${3|string,number,boolean,any[],any,{}|}>($5, $4)"
+    ],
+    "description": "use React.useReducer hook quickly" 
+  },
+  "use ref hook quickly": {
+    "prefix": "usr",
+    "body": [
+     "const [${1:first}] = React.useRef<${2|string,number,boolean,any[],any,{}|}>($3)"
+    ],
+    "description": "use React.useRef hook quickly" 
+  },
+  "use memo hook quickly": {
+    "prefix": "usm",
+    "body": [
+      "const [${1:memoizedValue}] = React.useMemo<${3|string,number,boolean,any[],any,{}|}>(() => ${2:null},[])"
+    ],
+    "description": "use React.useMemo hook quickly" 
+  },
+  "use callback hook quickly": {
+    "prefix": "usc",
+    "body": [
+      "const [${1:memoizedCallback}] = React.useCallback<${3|string,number,boolean,any[],any,{}|}>(() => ${2:null},[])"
+    ],
+    "description": "use React.useCallback hook quickly" 
+  },
+  "use layout effect hook quickly": {
+    "prefix": "uslf",
+    "body": [
+      "React.useLayoutEffect(() => {",
+        "\t$1",
+        "\treturn () => {",
+        "\t\t$3",
+        "\t}",
+      "},[$2])"
+    ],
+    "description": "use React.useLayoutEffect hook quickly" 
   }
 }

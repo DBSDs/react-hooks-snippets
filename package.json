@@ -2,7 +2,7 @@
   "name": "react-hooks-snippet",
   "displayName": "react-hooks-snippet/typescript",
 	"description": "Code snippets for React-hooks in typescript",
-	"version": "1.0.4",
+	"version": "1.1.0",
   "galleryBanner": {
     "theme": "light",
     "color": "#FFFFFF"
@@ -14,7 +14,7 @@
   "icon": "images/react_ts.png",
    "repository": {
     "type": "git",
-    "url": "https://github.com/DBSDs/react-hooks-snippet.git"
+    "url": "https://github.com/DBSDs/react-hooks-snippets"
   },
 	"publisher": "op-chen",
 	 "keywords": [
