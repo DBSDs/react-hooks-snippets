@@ -1,2 +1,5 @@
 ## [1.0.0 - ADDED]
 - INIT
+## [1.1.0 - ADDED]
+- ADD MORE SINPPETS
+
