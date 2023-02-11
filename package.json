@@ -28,6 +28,7 @@
 	"categories": [
 		"Snippets"
 	],
+  "activationEvents": [],
 	"contributes": {
 		"snippets": [
       {
