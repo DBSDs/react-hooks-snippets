@@ -72,14 +72,14 @@
   "use memo hook quickly": {
     "prefix": "usm",
     "body": [
-      "const ${1:memoizedValue} = React.useMemo<${3|string,number,boolean,any[],any,{}|}>(() => ${2:null},[])"
+      "const ${1:memoizedValue} = React.useMemo(() => ${2:null},[])"
     ],
     "description": "use React.useMemo hook quickly" 
   },
   "use callback hook quickly": {
     "prefix": "usc",
     "body": [
-      "const ${1:memoizedCallback} = React.useCallback<${3|string,number,boolean,any[],any,{}|}>(() => ${2:null},[])"
+      "const ${1:memoizedCallback} = React.useCallback(() => ${2:null},[])"
     ],
     "description": "use React.useCallback hook quickly" 
   },

@@ -1,10 +1,10 @@
 
 ## Snippets List
 
-a snippets for develop function compoent quickly
-
+a snippets for develop function compoent quickly  
+![](./images/show.gif)
 | Snippets | Content                                            |
-| -------: | -------------------------------------------------- |
+| -------- | -------------------------------------------------- |
 |      iprt| Import react as object                             |
 |      ftmp| Generate basic react function template             |
 |      tmp | Generate react function template with basic import |
