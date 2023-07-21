@@ -11,11 +11,9 @@
       "$3",
       "}", 
       "",
-      "const ${1:${TM_FILENAME_BASE}}: React.FC<T${TM_FILENAME_BASE}> = (props) => {",
+      "export default function ${1:${TM_FILENAME_BASE}} (props: T${TM_FILENAME_BASE}) {",
         "\treturn <React.Fragment>$2</React.Fragment>",
-      "}",
-      "",
-      "export default ${1:${TM_FILENAME_BASE}}"
+      "}"
     ],
     "description": "Generate react function template"
   },
@@ -28,11 +26,10 @@
       "$3",
       "}", 
       "",
-      "const ${1:${TM_FILENAME_BASE}}: React.FC<T${TM_FILENAME_BASE}> = (props) => {",
+      "export default function ${1:${TM_FILENAME_BASE}} (props: T${TM_FILENAME_BASE}) {",
         "\treturn <React.Fragment>$2</React.Fragment>",
       "}",
-      "",
-      "export default ${1:${TM_FILENAME_BASE}}"
+      ""
     ],
     "description": "Generate react function template with basic import"
   },
